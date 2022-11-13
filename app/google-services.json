@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304901549258",
+    "project_id": "myfirebaselesson2",
+    "storage_bucket": "myfirebaselesson2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304901549258:android:74142efc81af58b8829833",
+        "android_client_info": {
+          "package_name": "com.svetikov.myfirebasselesson2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304901549258-875cbrggsssjceggi9am952ghkgj8o3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwN2LpRiEJO92O355eFkIP4dZr98coV2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304901549258-875cbrggsssjceggi9am952ghkgj8o3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
