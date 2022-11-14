@@ -1,5 +1,6 @@
 package com.svetikov.myfirebasselesson2.viewmoddel
 
+import androidx.compose.runtime.livedata.observeAsState
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -31,7 +32,6 @@ class MyViewModel : ViewModel() {
 
     }
 
-    fun allNotes():List<Note>{
-     return REPOSITORY.readAll.value?: listOf(Note(title = "test0", subtitle = "test00"))
-    }
+    fun allNotes()= REPOSITORY.readAll//.observeAsState().value?: listOf(Note(title = "Start", subtitle = "Start"))//.value?: listOf(Note(title = "test0", subtitle = "test00"))
+
 }
